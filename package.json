@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "apisauce": "^0.14.0",
+    "apisauce": "^0.15.0",
     "bootstrap": "4.0.0-alpha.6",
     "classnames": "^2.2.5",
     "d3-cloud": "^1.2.4",
