@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "apisauce": "^0.14.0",
-    "bootstrap": "4.0.0-alpha.6",
+    "bootstrap": "4.0.0",
     "classnames": "^2.2.5",
     "d3-cloud": "^1.2.4",
     "d3-scale": "^1.0.6",
@@ -22,7 +22,8 @@
     "react-slick": "^0.14.11",
     "redux": "^3.6.0",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "enzyme": "^2.8.2",
@@ -52,7 +53,9 @@
     "lint-staged": "lint-staged",
     "test": "react-scripts test --env=jsdom",
     "test:ci": "yarn run lint",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "lint-staged": {
     "*.js": [
@@ -60,5 +63,6 @@
       "git add"
     ]
   },
-  "pre-commit": "lint-staged"
+  "pre-commit": "lint-staged",
+  "snyk": true
 }
