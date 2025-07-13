@@ -3,11 +3,11 @@
   "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "apisauce": "^0.14.0",
+    "apisauce": "^3.0.1",
     "bootstrap": "4.0.0-alpha.6",
     "classnames": "^2.2.5",
     "d3-cloud": "^1.2.4",
-    "d3-scale": "^1.0.6",
+    "d3-scale": "^4.0.0",
     "d3-selection": "^1.1.0",
     "history": "^4.6.1",
     "normalize.css": "^7.0.0",
